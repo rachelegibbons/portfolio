@@ -9,7 +9,6 @@ body {
 /* Setup images to be flexible filling the space available. */
 img {
 	max-width: 100%;
-	display: block;
 }
 
 /* Setup my wrapper so I can see it */
@@ -155,6 +154,15 @@ img {
 
 .projectSix:hover {
   background-color: #34496f;
+	text-decoration: underline;
+}
+
+.projectSeven {
+	background-color: #F05942;
+}
+
+.projectSeven:hover {
+	background-color: #f48271;
 	text-decoration: underline;
 }
 
@@ -353,7 +361,90 @@ img {
 	padding-bottom: 120px;
 }
 
+/* Books */
 
+#favoritesDetail {
+	background-color: white;
+	color: black;
+	padding-bottom: 120px;
+}
+
+.favorites {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	padding-left: 0px;
+}
+
+.favorites li {
+	display: inline;
+	padding-right: 20px;
+}
+
+.favorites a, .favorites a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.favorites a:hover, .favorites a:active {
+	text-decoration: underline;
+}
+
+/* Resume */
+
+.left, .experience {
+	padding-left: 20px;
+}
+
+.education h2, .skills h2, .tools h2, .experience h2 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	margin: 0px 0px;
+	padding-bottom: 5px;
+}
+
+.education p, .skills p, .tools p, .experience p {
+	font-family: 'Cormorant', serif;
+	font-size: 1.1em;
+	margin: 0px 0px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	line-height: 25px;
+}
+
+.education p a, .skills p a, .tools p a, .experience p a {
+	color: black;
+}
+
+.education p a:visited, .skills p a:visited, .tools p a:visited, .experience p a:visited {
+	color: black;
+}
+
+.education {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.expDetail {
+	padding-bottom: 20px;
+}
+
+.college {
+	font-weight: 700;
+}
+
+.skills {
+	padding-bottom: 20px;
+}
+
+.experience {
+	padding-top: 20px;
+}
+
+.title {
+	font-weight: 700;
+}
 
 
 
@@ -362,11 +453,16 @@ img {
 
 @media only screen and (min-width: 717px) {
 
+
+	.banner {
+		padding-left: 40px;
+	}
 	.intro h2 {
 	  font-weight: 500;
 	  font-size: 3.713em;
 		height: 30vh;
 		padding-top: 30px;
+		padding-left: 20px;
 	}
 
 	#work ul {
@@ -421,7 +517,7 @@ img {
 		background-color: #34496f;
 		color: white;
 		padding-left: 20px;
-		padding-right: 400px;
+		padding-right: 40px;
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
@@ -450,6 +546,21 @@ img {
 		margin-bottom: 10px;
 		font-size: 1.69em;
 	}
+
+	/* Resume */
+
+	#resumeCssGrid {
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		grid-gap: 1fr;
+	}
+
+	/* Favorites */
+
+	.favorites {
+		padding-left: 20px;
+	}
+
 
 }
 
@@ -518,6 +629,23 @@ img {
 
 	#moreProjects {
 		padding-left: 40px;
+	}
+
+	/* Resume */
+	.left {
+		padding-left: 60px;
+		padding-top: 60px;
+		padding-right: 200px;
+	}
+
+	.experience {
+		padding-top: 80px;
+		padding-right: 200px;
+	}
+
+	#resumeCssGrid {
+		display: grid;
+		grid-template-columns: 5fr 7fr;
 	}
 
 
