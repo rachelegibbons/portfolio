@@ -1,4 +1,3 @@
-/* Zero-out so the body isn’t messing with things. */*/
 body {
 	background-color: white;
 	margin: 0;
@@ -6,21 +5,16 @@ body {
   font-size: 16px;
 }
 
-/* Setup images to be flexible filling the space available. */
 img {
 	max-width: 100%;
 }
 
-/* Setup my wrapper so I can see it */
 .container {
-	/*outline: 1px solid red;
-	background-color: pink;*/
 	font-family: 'Rubik', sans-serif;
 }
 
 .banner {
-  font-family: 'Rubik', sans-serif;
-  padding-left: 20px;
+	padding: 20px 20px;
 }
 
 .banner h1 {
@@ -68,11 +62,7 @@ img {
 .intro {
   font-family: 'Cormorant', serif;
 	margin-bottom: -15px;
-  padding-left: 20px;
-  margin-bottom: -15px;
-	padding-top: 120px;
-	padding-bottom: 200px;
-	padding-right: 20px;
+	padding: 120px 20px 200px 20px;
 }
 
 .intro h2 {
@@ -89,7 +79,6 @@ img {
   display: block;
   padding: 20px 20px 200px 20px;
   color: white;
-  font-family: 'Rubik', sans-serif;
   font-size: 1.3em;
 }
 
@@ -173,8 +162,7 @@ img {
 .about p {
   font-family: 'Cormorant', sans-serif;
   font-size: 1.69em;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding: 60px 0px 60px 0px;
 	line-height: 38px;
 }
 
@@ -184,8 +172,7 @@ img {
 
 #contact {
   text-align: left;
-  margin-left: 20px;
-  margin-right: 20px;
+	margin: 0px 20px 0px 20px;
 }
 
 #contact ul {
@@ -196,12 +183,10 @@ img {
   list-style: none;
   display: inline;
   padding-right: 10px;
-  font-size: 1em;
-  font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 }
 
-#contact li a {
+#contact li a, #contact li a:visited {
   color: black;
   text-decoration: none;
 }
@@ -210,19 +195,12 @@ img {
   text-decoration: underline;
 }
 
-#contact li a:visited {
-	color: black;
-	text-decoration: none;
-}
-
 /* Project Pages */
 
 .projectDetail {
 	background-color: #34496f;
 	color: white;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 100px;
+	padding: 100px 20px 0px 20px;
 }
 
 .projectDetail h2 {
@@ -230,20 +208,21 @@ img {
 	font-weight: 400;
 	font-size: 2.856em;
 	margin-bottom: 0px;
-	padding-bottom: 10px;
+	padding: 0px 0px 10px 0px;
+}
+
+.projectDetail h3, .projectDetail p {
+	font-size: 1.3em;
+	font-weight: 300;
 }
 
 .projectDetail h3 {
-	font-weight: 300;
 	margin: 0px 0px;
-	font-size: 1.3em;
 	padding-bottom: 10px;
 }
 
 .projectDetail p {
 	font-family: 'Cormorant', serif;
-	font-weight: 300;
-	font-size: 1.3em;
 	padding-bottom: 0px;
 	margin-top: 5px;
 }
@@ -259,7 +238,6 @@ img {
 }
 
 .projectList li {
-	font-family: 'Rubik', sans-serif;
 	font-weight: 300;
 	font-size: 1em;
 	list-style: none;
@@ -288,7 +266,6 @@ img {
 }
 
 .moreProjects {
-	/*margin-top: 20px;*/
 	margin-left: 20px;
 }
 
@@ -297,8 +274,7 @@ img {
 	font-weight: 400;
 	font-size: 2.856em;
 	display: inline-block;
-	margin-top: 0px;
-	margin-bottom: 20px;
+	margin: 0px 0px 20px 0px;
 	color: black;
 	border-bottom: 2px solid black;
 }
@@ -313,55 +289,20 @@ img {
 	margin: auto;
 }
 
-/* PECI */
-
-#peciDetail {
-	background-color: #34496f;
-	padding-bottom: 120px;
-}
-
-
-/* Project Firefly */
-
-#fireflyDetail {
-	background-color: #F05942;
-	padding-top: 100px;
-	padding-bottom: 120px;
-}
-
-/* UNFI */
-
-#unfiDetail {
+#peciDetail, #unfiDetail, #codeGirlDetail {
 	background-color: #34496f;
 	padding-top: 100px;
 	padding-bottom: 120px;
 }
 
-/* Digital Diagrams */
 
-#diagramsDetail {
+#fireflyDetail, #diagramsDetail, #holidayCardDetail {
 	background-color: #F05942;
 	padding-top: 100px;
 	padding-bottom: 120px;
 }
 
-/* Code Girl */
-
-#codeGirlDetail {
-	background-color: #34496f;
-	padding-top: 100px;
-	padding-bottom: 120px;
-}
-
-/* Metal Toad Holiday Card */
-
-#holidayCardDetail {
-	background-color: #F05942;
-	padding-top: 100px;
-	padding-bottom: 120px;
-}
-
-/* Books */
+/* ------------------------ Favorites ------------------------ */
 
 #favoritesDetail {
 	background-color: white;
@@ -390,14 +331,13 @@ img {
 	text-decoration: underline;
 }
 
-/* Resume */
+/* ------------------------ Resume ------------------------ */
 
 .left, .experience {
 	padding-left: 20px;
 }
 
 .education h2, .skills h2, .tools h2, .experience h2 {
-	font-family: 'Rubik', sans-serif;
 	font-size: 1.3em;
 	font-weight: 400;
 	margin: 0px 0px;
@@ -408,8 +348,7 @@ img {
 	font-family: 'Cormorant', serif;
 	font-size: 1.1em;
 	margin: 0px 0px;
-	padding-bottom: 20px;
-	padding-right: 40px;
+	padding: 0px 40px 20px 0px;
 	line-height: 25px;
 }
 
@@ -421,48 +360,30 @@ img {
 	color: black;
 }
 
-.education {
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.expDetail {
-	padding-bottom: 20px;
-}
-
-.college {
-	font-weight: 700;
-}
-
-.skills {
-	padding-bottom: 20px;
-}
-
-.experience {
+.education, .experience {
 	padding-top: 20px;
 }
 
-.title {
+.education, .expDetail, .skills {
+	padding-bottom: 20px;
+}
+
+.college, .title {
 	font-weight: 700;
 }
 
-
-
-
-/* break points */
+/* ------------------------ break points ------------------------*/
 
 @media only screen and (min-width: 717px) {
-
 
 	.banner {
 		padding-left: 40px;
 	}
+
 	.intro h2 {
-	  font-weight: 500;
 	  font-size: 3.713em;
 		height: 30vh;
-		padding-top: 30px;
-		padding-left: 20px;
+		padding: 30px 0px 0px 20px;
 	}
 
 	#work ul {
@@ -516,32 +437,29 @@ img {
 	.projectDetail {
 		background-color: #34496f;
 		color: white;
-		padding-left: 20px;
-		padding-right: 40px;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding: 100px 40px 100px 20px;
 	}
 
-	.projectDetail h2 {
+	.projectDetail h2, {
 		font-size: 3.713em;
-		padding: 0px 20px;
 	}
 
-	.projectDetail h3 {
+	#peciDetail h2 , #fireflyDetail h2, #unfiDetail h2, #diagramsDetail h2, #codeGirlDetail h2, #holidayCardDetail h2 {
+		padding-left: 20px;
+	}
+
+	.projectDetail h3, .projectDetail p {
 		font-size: 1.69em;
 		padding: 0px 20px;
 	}
 
 	.projectDetail p {
-		font-size: 1.69em;
-		padding: 0px 20px;
 		font-weight: 300;
-		padding-top: 20px;
+		padding: 20px 20px 0px 20px;
 	}
 
 	.moreProjects h2 {
-		padding-top: 60px;
-		padding-bottom: 0px;
+		padding: 60px 0px 0px 0px;
 		border-bottom: 1px solid black;
 		margin-bottom: 10px;
 		font-size: 1.69em;
@@ -553,6 +471,7 @@ img {
 		display: grid;
 		grid-template-columns: 2fr 3fr;
 		grid-gap: 1fr;
+		padding-left: 20px;
 	}
 
 	/* Favorites */
@@ -560,8 +479,6 @@ img {
 	.favorites {
 		padding-left: 20px;
 	}
-
-
 }
 
 @media only screen and (min-width: 1053px) {
@@ -601,8 +518,7 @@ img {
 @media only screen and (min-width: 1300px) {
 
 	.banner {
-		padding-left: 60px;
-		padding-top: 20px;
+		padding: 20px 0px 0px 60px;
 	}
 	.intro {
 		padding: 40px 60px 300px 60px;
@@ -613,8 +529,7 @@ img {
 	}
 
 	.about {
-		padding-left: 100px;
-		padding-right: 100px;
+		padding: 0px 100px 0px 100px;
 	}
 
 	.contact {
@@ -633,44 +548,29 @@ img {
 
 	/* Resume */
 	.left {
-		padding-left: 60px;
-		padding-top: 60px;
-		padding-right: 200px;
+		padding: 60px 200px 0px 40px;
 	}
 
 	.experience {
-		padding-top: 80px;
-		padding-right: 200px;
+		padding: 80px 200px 0px 0px;
 	}
 
 	#resumeCssGrid {
 		display: grid;
 		grid-template-columns: 5fr 7fr;
 	}
-
-
 }
 
 @media only screen and (min-width: 1500px) {
 
-	.banner {
+	.banner, .banner h1, banner ul  {
 		padding-left: 40px;
-	}
-
-	.banner h1  {
-		padding-left: 40px;
-	}
-
-	.banner ul {
-	  padding-left: 40px;
 	}
 
 	.intro h2 {
 	  font-weight: 500;
 	  font-size: 6.275em;
-		padding-top: 100px;
-		padding-left: 40px;
-		padding-right: 40px;
+		padding: 100px 40px 0px 40px;
 	}
 
 	.about p {
@@ -679,9 +579,7 @@ img {
 	}
 
 	.projectDetail {
-		padding-left: 40px;
-		padding-right: 40px;
-		padding-top: 150px;
+		padding: 150px 40px 0px 40px;
 	}
 
 	.projectDetail h2 {
@@ -696,23 +594,11 @@ img {
 
 	.projectDetail p {
 		font-size: 2.197em;
-		padding: 0px 20px;
 		font-weight: 300;
-		padding-top: 20px;
-		padding-left: 40px;
-		padding-right: 40px;
+		padding: 20px 40px 0px 40px;
 	}
 
-	#peciDetail {
+	#peciDetail, #fireflyDetail, #unfiDetail {
 		padding-bottom: 200px;
 	}
-
-	#fireflyDetail {
-		padding-bottom: 200px;
-	}
-
-	#unfiDetail {
-		padding-bottom: 200px;
-	}
-
 }
